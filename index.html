@@ -6,6 +6,9 @@
   <meta name="format-detection" content="telephone=0">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
   <title>Tajam</title>
 </head>
 <body>
@@ -13,7 +16,7 @@
 <div class="page-header">
   <nav class="main-nav">
       <div class="page-header__logo">
-          <img class="header-logo" src="" alt="" width="" height="">
+          <object class="header-logo" data="img/logo.svg" type="image/svg+xml"></object>
       </div>
       <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
@@ -29,16 +32,17 @@
   </nav>
   <div class="main-promo">
       <p class="main-promo__intro">We Are Awesome Creative Agency</p>
+      <object class="main-promo__separation" data="img/icon/Separator.svg" type="image/svg+xml"></object>
       <p class="main-promo__note">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem<br>quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh<br>vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
       <a class="main-promo__link button" href="#">Learn More</a>
   </div>
   <div class="main-promo__slider">
-    <ul class="promo-slider__list">
-      <li class="promo-slider__item">1</li>
-      <li class="promo-slider__item">2</li>
-      <li class="promo-slider__item">3</li>
-      <li class="promo-slider__item">4</li>
-    </ul>
+    <div class="promo-slider__list">
+      <div class="promo-slider__item promo-slider__item--active"></div>
+      <div class="promo-slider__item"></div>
+      <div class="promo-slider__item"></div>
+      <div class="promo-slider__item"></div>
+    </div>
   </div>
 </div>
 <main class="page-main">
